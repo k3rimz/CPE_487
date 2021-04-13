@@ -10,7 +10,7 @@ ENTITY accelerometer IS
     PORT (
 
     );
-END bat_n_ball;
+END  accelerometer;
 
   
   
