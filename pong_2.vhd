@@ -17,6 +17,14 @@ ENTITY pong IS
         SW : IN STD_LOGIC_VECTOR (4 DOWNTO 0);
         SEG7_anode : OUT STD_LOGIC_VECTOR (3 DOWNTO 0); -- anodes of four 7-seg displays
         SEG7_seg : OUT STD_LOGIC_VECTOR (6 DOWNTO 0)
+        
+        INT1 : IN STD_lOGIC;
+        INT2 : IN STD_lOGIC;
+        MOSI : OUT STD_lOGIC;
+        MISO : IN STD_LOGIC;
+        CSN  : OUT STD_LOGIC;
+        SCLK : OUT STD_LOGIC;
+        
     ); 
 END pong;
 
